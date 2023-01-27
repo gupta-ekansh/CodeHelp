@@ -1,0 +1,185 @@
+Pesudo code
+
+->  adding 2 nos
+        start
+        take input of 2 nos
+        variable sum = a+b
+        print sum
+        end
+
+->  circumference of a circle
+        start
+        take input of radius
+        find circum = 2*3.14*radius
+        print circum 
+        end
+
+->  average of 3 nos
+        start
+        read input of 3 nos a,b,c
+        find avg = (a+b+c)/3
+        print avg
+        end
+
+->  check odd or even
+        start
+        read input of a number a
+        if(a%2 == 0)
+            print even
+        else
+            print odd
+        end
+
+->  student and grades
+        start
+        read marks m
+        if (m >= 90)
+            print A
+        else if (m >= 80 && m < 90)
+            print B 
+        else if (m >= 60 && m < 80)
+            print C
+        else if (m >= 40 && m < 60)
+            print D
+        else 
+            print E 
+        end 
+
+->  check if no +ve -ve or 0
+        start
+        read a number n
+        if(n == 0)
+            print ZERO
+        else if (n > 0)
+            print POSITIVE
+        else 
+            print NEGATIVE
+        end                 
+
+->  print counting from 1 to n
+        start
+        read a number n
+        declare a variable count = 1
+        while (1 <= n)
+            print count
+            count++
+        end 
+
+->  multiply 2 nos  
+        start
+        read input a,b 
+        print a*b 
+        end
+
+->  find perimeter of triangle
+        start   
+        read three sides a,b,c 
+        print a+b+c 
+        end
+    
+->  find simple interest
+        start 
+        read p , r , t
+        print (p*r*t)/100
+        end
+
+->  print counting n to 1
+        start
+        read number n
+        while (n >= 1)
+            print n 
+            n--
+        end
+
+->  find factorial of a number  
+        start
+        read number n
+        declare variable res = 1
+        while(n >= 1)
+            res = res*n 
+            n--
+        print res
+        end
+
+->  check prime or not
+        start
+        read number n
+        declare variable number = 2
+        declare variable ok = false
+        while(number < n)
+            if(n%number == 0)
+                print NOT PRIME 
+                ok = true
+                break
+            number++;
+        if(ok == false)
+            print PRIME
+        end
+
+->  valid triangle or not       
+        start
+        read three sides a,b,c 
+        if(a+b < c)
+            print NOT VALID 
+        else if (b+c < a)
+            print NOT VALID 
+        else if (a+c < b)
+            print NOT VALID 
+        else 
+            print VALID
+        end
+
+->  print even number from 1 to n   
+        start
+        read number n
+        declare variable var = 1
+        while(var <= n)
+            if(var%2 == 0)
+                print var
+            var++
+        end
+
+->  print max of three numbers
+        start
+        read input of three number a,b,c 
+        if(a >= b && a >= c)
+            print a 
+        else if (b > a && b > c)
+            print b 
+        else 
+            print c 
+        end
+
+->  add n numbers from user
+        start
+        read the value of n    
+        declare two variables count = 1 , sum = 0
+        while(count <= n)
+            declare currentval
+            input currentval
+            sum += currentval
+            count++
+        print sum
+        end
+
+->  print name n times
+        start
+        input n
+        declare count = 1 and name
+        input name
+        while(count <= n)
+            print name
+            count++
+        end
+
+->  printing 1 to N but only odd numbers
+        start
+        input n 
+        declare variable var = 1
+        while(var <= n)
+            if(var%2 != 0)
+                print var
+            var++
+        end
+
+
